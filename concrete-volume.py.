@@ -1,0 +1,9 @@
+# Concrete Volume Calculator
+
+length = float(input("Enter length (m): "))
+width = float(input("Enter width (m): "))
+height = float(input("Enter height (m): "))
+
+volume = length * width * height
+
+print("Concrete Volume =", volume, "cubic meters")
