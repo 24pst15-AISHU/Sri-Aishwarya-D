@@ -1,0 +1,11 @@
+# Civil Engineering Unit Converter
+
+meter = float(input("Enter length in meters: "))
+
+mm = meter * 1000
+cm = meter * 100
+feet = meter * 3.28084
+
+print("Millimeters:", mm)
+print("Centimeters:", cm)
+print("Feet:", feet)
