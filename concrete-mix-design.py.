@@ -1,0 +1,16 @@
+# Simple Concrete Mix Design Calculator
+
+cement = float(input("Enter cement quantity (kg): "))
+sand = float(input("Enter sand quantity (kg): "))
+aggregate = float(input("Enter aggregate quantity (kg): "))
+
+total = cement + sand + aggregate
+
+cement_ratio = cement / total
+sand_ratio = sand / total
+agg_ratio = aggregate / total
+
+print("Mix Ratio:")
+print("Cement:", round(cement_ratio,2))
+print("Sand:", round(sand_ratio,2))
+print("Aggregate:", round(agg_ratio,2))
